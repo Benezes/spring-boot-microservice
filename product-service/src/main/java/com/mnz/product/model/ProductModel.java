@@ -22,7 +22,7 @@ public class ProductModel implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
-    private UUID id;
+    private UUID productId;
     private String name;
     private String description;
     private BigDecimal price;
