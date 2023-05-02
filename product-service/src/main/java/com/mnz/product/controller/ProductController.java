@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Set;
 
 @RestController
-@RequestMapping(value = "/products")
+@RequestMapping(value = "api/products")
 @CrossOrigin(origins = "*")
 @RequiredArgsConstructor
 public class ProductController {
